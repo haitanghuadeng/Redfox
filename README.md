@@ -11,5 +11,8 @@ Because Redfox is not really developed, but based on pyecharts, for readers and 
 </div>
 <hr>
 <h6>Here, some coding questions will be declared.<h6>
-
->测试所有
+<br>
+### import pyecharts
+> It's declared on pyecharts, and it's declared again here.
+> #coding=utf-8
+> from __future__ import unicode_literals
