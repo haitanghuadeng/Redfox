@@ -10,7 +10,7 @@
 
 <center>Because Redfox is not really developed, but based on pyecharts, for readers and the original Python scholars, as well as those who are going into the visual field, to redevelop.And I hope that Redfox will be able to face the world in the near future, just like anaconda.</center>
 
-  [Read official document](https://github.com/pyecharts/pyecharts//)
+  [Read official document](https://github.com/pyecharts/pyecharts//)<br>
   [Read official description](http://pyecharts.org/#/)
 
 ------
@@ -46,7 +46,7 @@ import pyecharts
 <h3 align="center">pyecharts presentation</h3>
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/19553554/39612358-499eb2ae-4f91-11e8-8f56-179c4f0bf2df.png" alt="pyecharts logo" width=200 height=200 />
+    <img src="https://user-images.githubusercontent.com/19553554/39612358-499eb2ae-4f91-11e8-8f56-179c4f0bf2df.png" alt="pyecharts logo" style="width:200px;height:200px;" />
 </p>
 
 > Legend, this is the creator of pyecharts……
