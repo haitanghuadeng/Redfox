@@ -2,11 +2,11 @@
 
 ------
 
-# Secondary development based on pyecharts
+# $Secondary development based on pyecharts
 
 ------
 
-### When it comes to development, I'm a little embarrassed myself.
+### $When it comes to development, I'm a little embarrassed myself.
 
 <center>Because Redfox is not really developed, but based on pyecharts, for readers and the original Python scholars, as well as those who are going into the visual field, to redevelop.And I hope that Redfox will be able to face the world in the near future, just like anaconda.</center>
 
@@ -18,7 +18,7 @@
 ### install
 
 ```shell
-pip install
+$ pip install
 
 ```
 
@@ -39,7 +39,7 @@ $ python setup.py安装
 ### python程序中调用
 
 ```python
-import pyecharts
+$ import pyecharts
 
 ```
 
