@@ -2,11 +2,11 @@
 
 ------
 
-# Secondary development based on pyecharts
+<h1 align="center">Secondary development based on pyecharts</h1>
 
 ------
 
-### When it comes to development, I'm a little embarrassed myself.
+<h3 align="center">When it comes to development, I'm a little embarrassed myself.</h3>
 
 <center>Because Redfox is not really developed, but based on pyecharts, for readers and the original Python scholars, as well as those who are going into the visual field, to redevelop.And I hope that Redfox will be able to face the world in the near future, just like anaconda.</center>
 
@@ -39,7 +39,7 @@ $ python setup.py安装
 ### python import
 
 ```python
-$ import pyecharts
+import pyecharts
 
 ```
 
@@ -89,3 +89,25 @@ $ import pyecharts
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License">
     </a>
 </p>
+<br>
+
+
+
+<p align="center"><h3>For example, here we use the example provided by pyecharts</h3></p>
+
+------
+
+```python
+from pyecharts import Bar
+
+bar = Bar("My first chart," here's the subtitle.")
+bar.add("costume", ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"], [5, 20, 36, 10, 75, 90])
+# bar.print_echarts_options() # 该行只为了打印配置项，方便调试时使用
+# (The previous line is used only for printing configuration items to facilitate debugging.)
+bar.render()    # 生成本地 HTML 文件
+# (Generate local HTML files)
+```
+
+
+
+> 来自官方的使用方式，非常简便。
