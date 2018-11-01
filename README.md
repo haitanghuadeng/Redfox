@@ -99,7 +99,7 @@ import pyecharts
 ```python
 from pyecharts import Bar
 
-bar = Bar("My first chart," here's the subtitle.")
+bar = Bar("My first chart", "here's the subtitle")
 bar.add("costume", ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"], [5, 20, 36, 10, 75, 90])
 # bar.print_echarts_options() # 该行只为了打印配置项，方便调试时使用
 # (The previous line is used only for printing configuration items to facilitate debugging.)
