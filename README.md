@@ -92,7 +92,7 @@ import pyecharts
 
 
 
-<p align="center"><h3>For example, here we use the example provided by pyecharts</h3></p>
+<h3 align="center">For example, here we use the example provided by pyecharts</h3>
 
 ------
 
