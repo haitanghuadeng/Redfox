@@ -4,10 +4,15 @@
 
 <h1 align="center">Secondary development based on pyecharts</h1>
 
-
 <h3 align="center">When it comes to development, I'm a little embarrassed myself.</h3>
 
-<center>Because Redfox is not really developed, but based on pyecharts, for readers and the original Python scholars, as well as those who are going into the visual field, to redevelop.And I hope that Redfox will be able to face the world in the near future, just like anaconda.</center>
+<center>Because Redfox is not really developed, but based on pyecharts, for readers and the original Python scholars, as well as those who are going into the visual field, to redevelop.And I hope that Redfox will be able to face the world in the near future, just like anaconda.</center><hr><br>
+
+<h1 align="center">Redfox introduction</h1>
+
+<br>
+
+<center>……There's a lot to say, though, but I want to be very clear about what Redfox does。When beginners use Pyecharts to make the first chart, the threshold of data visualization is doomed.When we want to do the visualization of massive data, we must not be clueless!The author only wants to realize his dream here, which is to make a massive data visualization of himself.</center><hr>
 
   [Read official document](https://github.com/pyecharts/pyecharts//)<br>
   [Read official description](http://pyecharts.org/#/)
@@ -88,6 +93,7 @@ import pyecharts
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License">
     </a>
 </p>
+
 <br>
 
 
