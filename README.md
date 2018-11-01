@@ -4,7 +4,6 @@
 
 <h1 align="center">Secondary development based on pyecharts</h1>
 
-------
 
 <h3 align="center">When it comes to development, I'm a little embarrassed myself.</h3>
 
