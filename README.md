@@ -1,6 +1,5 @@
  <h1 align="center"><font color="red">Redfox</font></h1>
 
- ------
 
  <h2 align="center">Secondary development based on pyecharts</h2>
 
