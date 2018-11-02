@@ -165,7 +165,7 @@ def bar_help(help):
         print("--bar.add()：写入数据*arge,\033[1;31;47m必写项\033[0m")
         
 ```
-
+<code>import pyecharts<br># hehehe<br></code>
 <hr>
 
 
