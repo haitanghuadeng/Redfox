@@ -22,7 +22,7 @@
 <h4 align="center"><font color="#B0E2FF">When Terminal Encounter programming</h4>
 
 <hr>
-
+<h4 align="center">………</h4>
 
 <hr>
 
@@ -36,11 +36,11 @@
  ### install
 
  ```shell
- $ pip install pyecahrts
- # This is the command the python language USES to install the library
- $ pip install pyecharts-snap
- # Pyecharts is used to deploy the pyecharts component, which is used to quickly save charts (SVG/jpeg/PNG/PDF/GIF)
- ```
+  $ pip install pyecahrts
+  # This is the command the python language USES to install the library
+  $ pip install pyecharts-snap
+  # Pyecharts is used to deploy the pyecharts component, which is used to quickly save charts (SVG/jpeg/PNG/PDF/GIF)
+```
 
  ------
 
