@@ -35,7 +35,7 @@
 
  ### install
 
- ```shell
+ ```
   $ pip install pyecahrts
   # This is the command the python language USES to install the library
   $ pip install pyecharts-snap
@@ -46,7 +46,7 @@
 
  ### clone
 
- ```shell
+ ```
  $ git clone https://github.com/pyecharts/pyecharts.git
  $ cd pyecharts
  $ pip install -r requirements.txt
@@ -57,7 +57,7 @@
 
  ### python import
 
- ```python
+ ```
  import pyecharts
  ```
 
@@ -116,7 +116,7 @@
 
  ------
 
- ```python
+ ```
  from pyecharts import Bar
  
  bar = Bar("My first chart", "here's the subtitle")
@@ -143,7 +143,7 @@
 
 <br>
 
-```python
+```
 import deftest
 
 # Secondary pyecharts, Add a helper function to the original "use_theme"!
@@ -164,7 +164,6 @@ def bar_help(help):
         print("--bar.add()：写入数据*arge,\033[1;31;47m必写项\033[0m")
         
 ```
-
 
 
 
