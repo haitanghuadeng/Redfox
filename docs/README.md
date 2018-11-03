@@ -104,13 +104,13 @@
    <a href="https://opensource.org/licenses/MIT">
       <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License">
    </a>
- </p>
-
- <br>
+</p>
  
- <hr>
+<hr>
 
- <h3 align="center">For example, here we use the example provided by pyecharts</h3>
+<br>
+
+<h3 align="center">For example, here we use the example provided by pyecharts</h3>
 
 ------
 
