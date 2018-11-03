@@ -14,9 +14,7 @@
 
 <h2 align="center"><font color="#B0E2FF">When Terminal Encounter programming</font></h2>
 
-<center>In the terminal, if we have questions about how a command is used, "help" is the best option.In Redfox, this idea was inherited.If we have doubts about functions in a library, try using [function]_[help]()</center>
-
-<br>
+<center>In the terminal, if we have questions about how a command is used, "help" is the best option.In Redfox, this idea was inherited.If we have doubts about functions in a library, try using [function]_[help]().</center><br>
 
 <hr>
 
@@ -28,21 +26,21 @@
 
 <br>
 
-### install
+### Install
 
 ```shell
  $ pip install pyecahrts
  # This is the command the python language USES to install the library
  $ pip install pyecharts-snap
  # Pyecharts is used to deploy the pyecharts component, 
- # which is used to quickly save charts (SVG/jpeg/PNG/PDF/GIF)
+ # Which is used to quickly save charts (SVG/jpeg/PNG/PDF/GIF)
 ```
 
 ------
 
 <br>
 
-### clone
+### Clone
 
 ```shell
  $ git clone https://github.com/pyecharts/pyecharts.git
@@ -55,7 +53,7 @@
 
 <br>
 
-### python import
+### Python import
 
 ```python
  import pyecharts
