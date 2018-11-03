@@ -20,7 +20,7 @@
 
 <br>
 
->inspiring and learning
+>use for reference
 
  [Read official document](https://github.com/pyecharts/pyecharts//)
  <br>
