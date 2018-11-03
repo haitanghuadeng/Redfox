@@ -123,21 +123,15 @@
  bar.render()    # 生成本地 HTML 文件
 ```
 
-
-
 > 来自官方的使用方式，非常简便。
-
-
-
-<h3 align="center">In Redfox, We can combine multiple options into a continuous set of code</h3>
-
-<hr>
-
-> For python writing style, more inclined to functional programming.
 
 <hr>
 
 <br>
+
+<h3 align="center">For python writing style, more inclined to functional programming.</h3>
+
+<hr>
 
 ```python
 import deftest
