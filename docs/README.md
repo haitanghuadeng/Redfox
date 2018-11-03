@@ -6,11 +6,9 @@
 
 <h2 align="center"><font color="#B0E2FF">Redfox introduction</font></h2>
 
-<h4 align="center"><font color="#FF3030">Getting help is the fastest way to make progress on the way to learning.</font></h4>
-
-<br>
-
 <center>There's a lot to say, though, but I want to be very clear about what Redfox does。When beginners use Pyecharts to make the first chart, the threshold of data visualization is doomed.When we want to do the visualization of massive data, we must not be clueless!The author only wants to realize his dream here, which is to make a massive data visualization of himself.</center>
+ 
+<p align="center"><font color="FF3030">Getting help is the fastest way to make progress on the way to learning.</font></p>
  
 <br>
 
