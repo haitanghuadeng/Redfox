@@ -2,7 +2,7 @@
 
  <center>Because Redfox is not really developed, but based on pyecharts, for readers and the original Python scholars, as well as those who are going into the visual field, to redevelop.And I hope that Redfox will be able to face the world in the near future, just like anaconda.</center>
  <br>
- <hr>
+ ------
 
  <h2 align="center">Redfox introduction</h2>
 
