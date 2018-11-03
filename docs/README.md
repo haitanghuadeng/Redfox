@@ -10,17 +10,19 @@
 
  <br>
 
- <center>There's a lot to say, though, but I want to be very clear about what Redfox does。When beginners use Pyecharts to make the first chart, the threshold of data visualization is doomed.When we want to do the visualization of massive data, we must not be clueless!The author only wants to realize his dream here, which is to make a massive data visualization of himself.</center><hr>
-
+ <center>There's a lot to say, though, but I want to be very clear about what Redfox does。When beginners use Pyecharts to make the first chart, the threshold of data visualization is doomed.When we want to do the visualization of massive data, we must not be clueless!The author only wants to realize his dream here, which is to make a massive data visualization of himself.</center>
+ 
 <br>
+------
 
-<h4 align="center"><font color="#B0E2FF">When Terminal Encounter programming</font></h4>
+><h4 align="center"><font color="#B0E2FF">When Terminal Encounter programming</font></h4>
 
 <hr>
 
 <center>In the terminal, if we have questions about how a command is used, "help" is the best option.In Redfox, this idea was inherited.If we have doubts about functions in a library, try using [function]_[help]()</center>
 
-<hr>
+<br>
+------
 
  [Read official document](https://github.com/pyecharts/pyecharts//)
  <br>
