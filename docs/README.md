@@ -135,7 +135,7 @@
  bar.render()    # 生成本地 HTML 文件
 ```
 
-> 来自官方的使用方式，非常简便。
+> Pyecharts source code display
 
 <hr>
 
@@ -146,11 +146,8 @@
 <hr>
 
 ```python
-import deftest
-
 # Secondary pyecharts, Add a helper function to the original "use_theme"!
 # Deftest code
-
     
 def bar_help(help):
 
