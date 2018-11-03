@@ -14,9 +14,13 @@
 
 <h2 align="center"><font color="#B0E2FF">When Terminal Encounter programming</font></h2>
 
-<center>In the terminal, if we have questions about how a command is used, "help" is the best option.In Redfox, this idea was inherited.If we have doubts about functions in a library, try using [function]_[help]().</center><br>
+<center>In the terminal, if we have questions about how a command is used, "help" is the best option.In Redfox, this idea was inherited.If we have doubts about functions in a library, try using [function]_[help]().</center>
 
-<hr>
+<br>
+
+<br>
+
+>inspiring and learning
 
  [Read official document](https://github.com/pyecharts/pyecharts//)
  <br>
