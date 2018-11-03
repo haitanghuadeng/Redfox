@@ -4,6 +4,8 @@
  
 <br>
 
+<p align="center"><img src="https://github.com/haitanghuadeng/Redfox/blob/master/docs/Redfoximg.jpg" width="210" height="210"></p>
+
 <h2 align="center"><font color="#B0E2FF">Redfox introduction</font></h2>
 
 <center>There's a lot to say, though, but I want to be very clear about what Redfox does。WData visualization takes on a new dimension when scholars use Pyecharts to create their first charts.When we want to do the visualization of massive data, we must not be clueless!The author only wants to realize his dream here, which is to make a massive data visualization of himself.</center>
