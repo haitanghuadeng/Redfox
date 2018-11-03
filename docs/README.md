@@ -1,7 +1,3 @@
-<h1 align="center"><font color="red">Redfox</font></h1>
-
- <h2 align="center">Secondary development based on pyecharts</h2>
-
  <br>
 
  <h3 align="center">When it comes to development, I'm a little embarrassed myself.</h3>
@@ -26,12 +22,10 @@
 
 <hr>
 
-<br>
-
  [Read official document](https://github.com/pyecharts/pyecharts//)<br>
  [Read official description](http://pyecharts.org/#/)
 
-------
+<hr>
 
 ### install
 
@@ -39,7 +33,8 @@
  $ pip install pyecahrts
  # This is the command the python language USES to install the library
  $ pip install pyecharts-snap
- # Pyecharts is used to deploy the pyecharts component, which is used to quickly save charts (SVG/jpeg/PNG/PDF/GIF)
+ # Pyecharts is used to deploy the pyecharts component, 
+ # which is used to quickly save charts (SVG/jpeg/PNG/PDF/GIF)
 ```
 
 ------
@@ -122,7 +117,8 @@
  bar = Bar("My first chart", "here's the subtitle")
  bar.use_theme('dark')
  # 自0.5.2+起，pyecharts支持更换主体色系。
- bar.add("costume", ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"], [5, 20, 36, 10, 75, 90])
+ bar.add("costume", ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"], 
+                     [5, 20, 36, 10, 75, 90])
  # bar.print_echarts_options() # 该行只为了打印配置项，方便调试时使用
  bar.render()    # 生成本地 HTML 文件
 ```
