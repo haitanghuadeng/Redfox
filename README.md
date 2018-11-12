@@ -6,7 +6,7 @@
 
 <p align="center"><font color=#000000>Because Redfox is not really developed, but based on pyecharts, for readers and the original Python scholars, as well as those who are going into the visual field, to redevelop.And I hope that Redfox will be able to face the world in the near future, just like anaconda.</font></p>
 
-<table><tr><td bgcolor=#000000><font color=#FFFFFF>Date View 领域</font><hr></td></tr></table>
+<table><tr><td bgcolor=#000000><font color=#FFFFFF>Data View 领域</font><hr></td></tr></table>
 
 ```python
 from pyecharts import Polar
