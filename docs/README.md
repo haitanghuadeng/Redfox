@@ -1,4 +1,5 @@
- <h2 align="center"><font color="#B0E2FF">Small as the idea is, it is important to realize it</font></h2>
+<p align="center"><img src="https://avatars1.githubusercontent.com/u/43346455?s=400&u=9c5148d7e21bfbb8d810c68996760402f3c4c189&v=4" width="196" height="196""></p>
+<h2 align="center"><font color="#B0E2FF">Small as the idea is, it is important to realize it</font></h2>
 
  <center>Because Redfox is not really developed, but based on pyecharts, for readers and the original Python scholars, as well as those who are going into the visual field, to redevelop.And I hope that Redfox will be able to face the world in the near future, just like anaconda.</center>
 
