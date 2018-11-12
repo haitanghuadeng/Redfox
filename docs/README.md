@@ -4,7 +4,7 @@
 
 <br>
 
-<p align="center"><img src="Y:\Redfox\Redfoximg.jpg" width="210" height="210"></p>
+<p align="center"><img src="https://github.com/haitanghuadeng/Redfox/blob/master/docs/Redfoximg.jpg" width="210" height="210"></p>
 
 <h2 align="center"><font color="#B0E2FF">Redfox introduction</font></h2>
 
