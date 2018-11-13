@@ -211,8 +211,6 @@ Bar_help('help') | Bar_help('more') | Bar_help('help-all')
 
 <h3 align="center"><font color="red">图形绘制过程~pyecharts</font></h3>
 
-<hr>
-
 | 步骤 |                   描述                    |       代码示例       |                             备注                             |
 | :--: | :---------------------------------------: | :------------------: | :----------------------------------------------------------: |
 |  1   |        实例一个具体类型图表的对象         |  chart = FooChart()  |                                                              |
@@ -220,7 +218,5 @@ Bar_help('help') | Bar_help('more') | Bar_help('help-all')
 |  3   |           为图表添加特定的配置            | geo.add_coordinate() |                                                              |
 |  4   |             添加数据及配置项              |     chart.add()      | 参考 [数据解析与导入篇](http://pyecharts.org/#/zh-cn/data_import) |
 |  5   | 生成本地文件（html/svg/jpeg/png/pdf/gif） |    chart.render()    |                                                              |
-
-<hr>
 
 <br>
