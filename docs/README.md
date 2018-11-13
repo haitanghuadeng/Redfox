@@ -200,13 +200,36 @@ Bar_help('help') | Bar_help('more') | Bar_help('help-all')
 
 <hr>
 
-<h3 align="center">关于散点图的获取帮助(For scatter plots, get help)</h3>
+<br>
+
+<h3 align="center">关于极坐标系的获取帮助(For polar plots, get help)</h3>
 
 <hr>
 
 ```python
+#! /usr/bin/python
+# -*- coding:utf-8 -*-
+# author: haitanghuadeng(github)
+# project: Redfox
+# project hub: Redfox
+
+def Polar_help(*arge):
+
+    i = ['help', 'more', 'help-all']
+    ii = {key:value, key:[value, value1]}
+    for arge in i:
+        if arge == i[0]:
+            # 此处代码编写：遍历字典的KEY
+            print("dict的KEY")
+        elif arge == i[1]:
+            print("dict开发者模式的帮助")
+        else:
+            print("dict的KEY：VALUE (除了开发者模式)")
 
 ```
+
+<hr>
+
 <br>
 
 <h3 align="center"><font color="red">图形绘制过程~pyecharts</font></h3>
