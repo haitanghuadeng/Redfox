@@ -61,17 +61,19 @@ Polar_help('help')
 #! /usr/bin/python 
 # -*- coding:utf-8 -*-
 # 存储的帮助信息，数据类型将是字典。
-i = ['help', 'more', 'help-all']
+i = ['help', 'more']
 helpdic = {'a':'b'}
 
-def Polar_help(*arge):
-    for arge in i:
-        if arge == i[0]:
-            print("……")
-        elif  arge == i[1]:
-            print("……")
-        else:
-            print("……")
+    value = helpme
+    if value in i:
+        print("From dictionaries read INFO")
+        if value == i[0]:
+            for key in ii.keys():
+                print(key)
+        elif value == i[1]:
+            print(ii)
+    else:
+        print("传入实参未达到预期值" + "\n可写选项为 Polar_help( 'help' | 'more' )")
 ```
 
 
