@@ -1,8 +1,12 @@
+<br>
+
 <h2 align="center"><font color="#B0E2FF">Small as the idea is, it is important to realize it</font></h2>
 
  <center>Because Redfox is not really developed, but based on pyecharts, for readers and the original Python scholars, as well as those who are going into the visual field, to redevelop.And I hope that Redfox will be able to face the world in the near future, just like anaconda.</center>
 
 <br>
+
+
 
 <h2 align="center"><font color="#B0E2FF">Redfox introduction</font></h2>
 
@@ -131,12 +135,20 @@
  bar.render()    # 生成本地 HTML 文件
 ```
 
-> Pyecharts source code display
+> Pyecharts 源码展示
 
 <hr>
 <br>
+<h3 align="center">对于python写作风格，Redfox提倡面向对象式编程。
+    <p>尽管程序文件中仍然可见函数式编程，但这不影响我们的初衷。</p>
+    <p>>>>> 开源! <<<<</p></h3><br>
 
-<h3 align="center">For python writing style, more inclined to functional programming.</h3>
+
+
+<h4 align="center"><font color=#000000><p>Redfox1.0.1c版本之前，Redfox开发作者使用的方式极为低效。</p>
+    <p>但是在Redfox1.0.1b的版本声明中，Redfox的函数文件将会利用字典进行存储pyecharts库的制图信息。</p>
+    <p>在Redfox1.0.1c版本之后，pyecharts的有关更新将会添加至Redfox的demo函数文件，以此来调用该功能帮助。</p>
+</h4></font></h4>
 
 <hr>
 
@@ -180,25 +192,54 @@ def bar_help(help):
 # 但是，如果我们在进行数据可视化编程的时候，万一忘了想要添加的参数呢？
 bar = Bar("我的第一个图表", "这里是副标题")
 bar.????('????')
-bar.add("服饰", ['衬衫', '羊毛衫', "雪纺衫", "裤子", "高跟鞋", "袜子"], [5, 20, 36, 10, 75, 90], is_more_utils=True)
+bar.add("服饰", ['衬衫', '羊毛衫', "雪纺衫", "裤子", "高跟鞋", "袜子"],
+        [5, 20, 36, 10, 75, 90], is_more_utils=True)
 bar.????("我想在生成HTML文件的同时，能够得到数据的反馈")
 bar.render()
 ```
 
-> 每当作者心血来潮时，想要表现什么时，“忘了参数了”这句话会很扎心。
+> 每当作者心血来潮时，想要表现什么时，“忘参数了”这句话会很扎心。
 
 ```python
+form deftest import [需要获取的帮助]
+
 Bar_help('help') | Bar_help('more') | Bar_help('help-all')
 
 # Redfox将pyecharm库中的所有的可视化模板进行初次统计
 # Redfox诞生之初，意愿为万物皆可帮助
 ```
 
-> 不想一人走在成长的路上，那么多帮助一下别人吧！
->
-> 得道者多助
+<hr>
+<br>
+
+<h3 align="center"><font color="red">Your Help in Bar_help!</font></h3>
 
 <hr>
+
+> 不想一人走在成长的路上，那么多帮助一下别人吧！
+>
+> <p align="center">——得道者多助——</p>
+
+<br>
+
+> <h3 align="center">Redfox使用时注意事项：</h3>
+>
+> <h3 align="center"><font color="red">》》》Redfox库不能与pyecharts库共同使用《《《</font></h3>
+>
+> <h3><font>原因如下:</font></h3>
+>
+> ```python
+> from pyecharts import *
+> from redfox import *
+> 
+> 
+> bar = Bar
+> # 该行为将会使程序无法查找到所对应的对象Bar
+> # 因为RedFox库中，所有charts命名和pyecharts相同……
+> # 在此，Redfox宗旨是将代码进行注释之后，调用该库，获得帮助
+> ```
+>
+> <hr>
 
 <br>
 
@@ -213,10 +254,11 @@ Bar_help('help') | Bar_help('more') | Bar_help('help-all')
 # project: Redfox
 # project hub: Redfox
 
+
+i = ['help', 'more', 'help-all']
+ii = {key:value, key:[value, value1]}
 def Polar_help(*arge):
 
-    i = ['help', 'more', 'help-all']
-    ii = {key:value, key:[value, value1]}
     for arge in i:
         if arge == i[0]:
             # 此处代码编写：遍历字典的KEY
@@ -225,14 +267,50 @@ def Polar_help(*arge):
             print("dict开发者模式的帮助")
         else:
             print("dict的KEY：VALUE (除了开发者模式)")
+            
+class Polar:
+
+    def __init__(self, helpme):
+        self.helpme = helpme
+
+    def help(self):
+
+        i = ['help', 'more', 'help-all']
+        ii = {key:value, key:[value, value1]}
+
+        value = self.helpme
+        if value in i:
+            print("From dictionaries read INFO")
+            if value == i[0]:
+                for key in ii.keys():
+                    print(key)
+            elif value == i[1]:
+                for key in ii.keys():
+                    print(key + ii[key])
+        else:
+            print("传入实参未达到预期值" + "\n可写选项为 polar_help( [help] | [more] )")
+
+    @staticmethod
+    def add():
+        pass # 截止到2018年11月19日，Redfox最新版本为1.0.1a，目前.add()方法签名帮助暂未实现。
+
 
 ```
 
-<hr>
+> 此处展示Redfox中对极坐标系的帮助，源码编写方式如上。
+>
+> 特殊声明：Redfox函数式编程在版本1.0.1a之后被面向对象式编程取代
 
+<hr>
 <br>
 
+
+
 <h3 align="center"><font color="red">图形绘制过程~pyecharts</font></h3>
+
+<hr>
+
+
 
 | 步骤 |                   描述                    |       代码示例       |                             备注                             |
 | :--: | :---------------------------------------: | :------------------: | :----------------------------------------------------------: |
@@ -242,4 +320,28 @@ def Polar_help(*arge):
 |  4   |             添加数据及配置项              |     chart.add()      | 参考 [数据解析与导入篇](http://pyecharts.org/#/zh-cn/data_import) |
 |  5   | 生成本地文件（html/svg/jpeg/png/pdf/gif） |    chart.render()    |                                                              |
 
+<hr>
 <br>
+
+<h3 align="center"><font color="red">RedFox1.0.1a首个版本声明</font></h3>
+
+
+
+> RedFox1.0.1a版本概要：
+>
+> > RedFox版本开发，`a`为母版本，其作用为demo版本做样例。核心功能将在此进行初次开发及优化，该版本是落实一些想法版本。
+> >
+> > RedFox版本开发，`b`为demo版本，其作用为模板版本，核心功能在此进行二次优化及补全，该版本将会调整及部署一些优化方案。
+> >
+> > RedFox版本开发，`c`为生产版本，其作用为正式发布版本。核心功能是将RedFox开发之初所构建的愿景，[github](https://github.com/haitanghuadeng/Redfox/issues)问题模板将在此处进行提问和建议。
+>
+> > 详细内容可以跳转访问[RedFox Wiki](https://github.com/haitanghuadeng/Redfox/wiki)，不过Wiki正在开发中，可以将为题提交到[问题模板](https://github.com/haitanghuadeng/Redfox/issues)
+
+> RedFox官网
+>
+> > [www.haitanghuadeng.com](暂未开放)
+> >
+> > [www.haitanghuadeng.cn](暂未开放)
+
+<hr>
+
