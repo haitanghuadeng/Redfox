@@ -345,3 +345,12 @@ class Polar:
 
 <hr>
 
+<br>
+
+<table><tr><td bgcolor=#000000><font color=#FFFFFF>Redfox:Path文件</font><br>
+    <font>1.0.1c版本之后，Redfox每次版本更新时，将会对版本生成一个"树目录图"</font><hr></td></tr></table>
+
+<p align="center"><font color=#000000>这么做，只是希望使用者在查看当前版本所有信息时，可以最快速的得到反馈。</font></p>
+
+<hr><br>
+
