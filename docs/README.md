@@ -226,7 +226,7 @@ Bar_help('help') | Bar_help('more') | Bar_help('help-all')
 >
 > <h3 align="center"><font color="red">》》》Redfox库不能与pyecharts库共同使用《《《</font></h3>
 >
-> <h3><font>原因如下:</font></h3>
+> <h3><font>原因如下 : </font></h3>
 >
 > ```python
 > from pyecharts import *
@@ -238,6 +238,8 @@ Bar_help('help') | Bar_help('more') | Bar_help('help-all')
 > # 因为RedFox库中，所有charts命名和pyecharts相同……
 > # 在此，Redfox宗旨是将代码进行注释之后，调用该库，获得帮助
 > ```
+>
+> <h3><font>不过，Redfox开发团队相信，这个问题将会在1.1.1c版本(也就是第二个正式版本时，解决该问题)</font></h3>
 >
 > <hr>
 
