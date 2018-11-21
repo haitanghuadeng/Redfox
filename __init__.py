@@ -34,3 +34,4 @@ from Redfox.function.charts.TreeMap import TreeMap
 from Redfox.function.charts.Wordcloud import WordCloud
 
 name = "Pyecharts-RedFox"
+version = "RedFox1.0.1bc"
