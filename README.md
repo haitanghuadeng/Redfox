@@ -24,7 +24,7 @@ polar.render()
 
 <hr>
 <br>
-<table><tr><td bgcolor=#000000><font color=#FFFFFF>Redfox_help: 面向对象方式调用帮助</font><hr></td></tr></table>
+<table><tr><td bgcolor=#000000><font color=#FFFFFF>Redfox_help: 面向对象方式调用帮助</font><hr></td></tr></table><br>
 
 <p align="center"><font color=#000000>There's a lot to say, though, but I want to be very clear about what Redfox does。Data visualization takes on a new dimension when scholars use Pyecharts to create their first charts.When we want to do the visualization of massive data, we must not be clueless!The author only wants to realize his dream here, which is to make a massive data visualization of himself.</font></p>
 
@@ -32,13 +32,24 @@ polar.render()
 from.import definfo
 
 
+# 此方法已被丢弃，将以新的方式调用帮助
 Polar_help('help')
 ```
+
+```python
+from Redfox.funtion.charts.Polar import Polar
+
+
+ · polar = Polar('help')
+ · polar.help()
+```
+
+
 
 <table><tr><td bgcolor=#000000><font color=#FFFFFF>Polar('help')</font><br><br><font color=#FFFFFF>在1.0.1b版本之前，统一使用的是Polar_help('help')</font><br>
     <font>很多时候，这方法显而易见</font><hr></td></tr></table><br>
 
-> 如下是关于编写程序时所遇到问题时，该如何调用Redfox的帮助
+<p align="center"><font color=#000000>如下是关于编写程序时所遇到问题时，该如何调用Redfox的帮助</font></p>
 
 ```shell
 # 终端方式
@@ -59,19 +70,16 @@ Polar('help')  ---此方法适用于Redfox1.0.1b版本之后
 <br>
 
 <table><tr><td bgcolor=#000000><font color=#FFFFFF>Redfox:OOP (object-oriented-programming)</font><br>
-    <font>面向对象编程</font><hr></td></tr></table>
+    <font>面向对象编程</font><hr></td></tr></table><br>
 
 <p align="center"><font color=#000000>Python Redfox较为喜欢字典类型。因此，帮助信息的数据类型为字典。</font></p>
 
 ```python
 # -*- coding:utf-8 -*-
 # 存储的帮助信息，数据类型将是字典。
-
-i = ['help', 'more', 'help-all']
-ii = {key:value, key:[value, value1]}
-  
-
 # 面向对象编程方式
+
+
 class Polar:
 
     def __init__(self, helpme):
@@ -112,15 +120,38 @@ class Polar:
     
 ```
 
-<hr>
+<hr><br>
 
+<table><tr><td bgcolor=#000000><font color=#FFFFFF>Redfox:OOP .add()方法签名</font><br>
+    <font>1.0.*版本之后，Redfox团队将代码重构为OOP</font><hr></td></tr></table>
 
+<br>
 
+<p align="center"><font color=#000000>尽管，"class_zero"这样的命名不符合命名约定，目前仅仅用作开发阶段。</font></p>
 
+```python
+# 关于命名方式
+from Redfox.funtion.charts.Polar import Polar
 
+class ...
 
+	...
 
+    @staticmethod
+	def add():
+        
+        class_zero = ("...")
+        print(class_zero)
+        
+```
 
+<br>
 
+```python
+polar.add()
+```
 
+<p align="center"><font color=#000000>仅此一条便可调用，这便是Redfox在后续开发中，无论录入任何代码，将会以简而有效的方式呈现。</font></p>
+
+<hr><br>
 
