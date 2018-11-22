@@ -347,7 +347,6 @@ class Polar:
 
 <hr>
 
-<hr>
 <br>
 
 <h3 align="center"><font color="red">Redfox:Path文件</font></h3>
