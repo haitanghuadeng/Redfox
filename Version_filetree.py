@@ -150,7 +150,7 @@ data = [
                             {
                                 "children": [],
                                 "name": "Scatter3D.py"
-                            }
+                            },
                         	{
                         		"children": [],
                         		"name": "Surface3D.py"
