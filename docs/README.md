@@ -346,12 +346,11 @@ class Polar:
 > > [www.haitanghuadeng.cn](暂未开放)
 
 <hr>
-> > ](暂未开放)
 
 <hr>
 <br>
 
-<h3 align="center"><font color="red">Redfox:Path文件</font></h3>1.0.1c版本之后，Redfox每次版本更新时，将会对版本生成一个"树目录图"
+<h3 align="center"><font color="red">Redfox:Path文件</font></h3>
 
 > 1.0.1c版本之后，Redfox每次版本更新时，将会对版本生成一个"树目录图"
 
