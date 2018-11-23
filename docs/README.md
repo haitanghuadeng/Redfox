@@ -155,6 +155,8 @@
 > [from Redfox 代码声明](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(code_statement).md)
 >
 > [from Redfox 注意事项](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(matter_need_attention).md)
+>
+> [from Redfox Redfox声明](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(Redfox_statement).md)
 
 <br>
 
