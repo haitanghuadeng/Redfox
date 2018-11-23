@@ -150,11 +150,11 @@
 
 <hr>
 
-> [from Redfox Version_statement](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(version_statement).md)
+> [from Redfox 版本声明](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(version_statement).md)
 >
-> [from Redfox code_statement](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(code_statement).md)
+> [from Redfox 代码声明](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(code_statement).md)
 >
-> [from Redfox matter_need_attention](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(matter_need_attention).md)
+> [from Redfox 注意事项](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(matter_need_attention).md)
 
 <br>
 
