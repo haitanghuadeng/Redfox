@@ -346,6 +346,8 @@ class Polar:
 > > [www.haitanghuadeng.com](暂未开放)
 > >
 > > [www.haitanghuadeng.cn](暂未开放)
+> >
+> > [测试分页](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/docs/README.md)
 
 <hr>
 
