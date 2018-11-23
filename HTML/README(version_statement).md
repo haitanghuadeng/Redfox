@@ -14,16 +14,12 @@
 >
 > > 详细内容可以跳转访问[RedFox Wiki](https://github.com/haitanghuadeng/Redfox/wiki)，不过Wiki正在开发中，可以将为题提交到[问题模板](https://github.com/haitanghuadeng/Redfox/issues)
 
-> RedFox官网
->
-> > [www.haitanghuadeng.com](暂未开放)
-> >
-> > [www.haitanghuadeng.cn](暂未开放)
-
 <hr>
 <br>
 
 <h3 align="center"><font color="red">Redfox:Path文件</font></h3>
+
+<br>
 
 > 1.0.1c版本之后，Redfox每次版本更新时，将会对版本生成一个"树目录图"
 
