@@ -2,6 +2,8 @@
 
 <h3 align="center"><font color="red">RedFox1.0.1a首个版本声明</font></h3>
 
+<hr>
+
 <br>
 
 > RedFox1.0.1a版本概要：
@@ -14,7 +16,6 @@
 >
 > > 详细内容可以跳转访问[RedFox Wiki](https://github.com/haitanghuadeng/Redfox/wiki)，不过Wiki正在开发中，可以将为题提交到[问题模板](https://github.com/haitanghuadeng/Redfox/issues)
 
-<hr>
 <br>
 
 <h3 align="center"><font color="red">Redfox:Path文件</font></h3>
