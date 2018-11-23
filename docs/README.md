@@ -65,6 +65,7 @@
 
 ```python
  import pyecharts
+ import Redfox
 ```
 
 ------
@@ -116,7 +117,6 @@
 </p>
 
 <hr>
-
 <br>
 
 <h3 align="center">For example, here we use the example provided by pyecharts</h3>
@@ -146,132 +146,23 @@
 
 
 <h4 align="center">
- <font color=#000000><p>Redfox1.0.1c版本之前，Redfox开发作者使用的方式极为低效。</p>
+    <font color=#000000>
+    <p>Redfox1.0.1c版本之前，Redfox开发作者使用的方式极为低效。</p>
     <p>但是在Redfox1.0.1b的版本声明中，Redfox的函数文件将会利用字典进行存储pyecharts库的制图信息。</p>
-    <p>在Redfox1.0.1c版本之后，pyecharts的有关更新将会添加至Redfox的demo函数文件，以此来调用该功能帮助。</p>
- </font>
+    <p>在Redfox1.0.1c版本之后，pyecharts的有关更新将会添加至Redfox的demo函数文件，以此来调用该功能帮助</p>
+	</font>
 </h4>
 
-<hr>
 
-```python
-# Secondary pyecharts, Add a helper function to the original "use_theme"!
-# Deftest code
-
-    
-def bar_help(help):
-
-    i = ['help', 'more', 'help-all']
-    for i in arge:
-        print("\nBar帮助：{}".format(i))
-        if i == 'help':
-            print("\n可写选项：[help] | [more] | [help--all]\n")
-        elif i == 'more':
-            print("\n--bar.use_theme()：支持主题色系,选参")
-            print("--bar.add()：写入数据,\033[1;31;47m必写项\033[0m\n")
-        elif i == 'help-all':
-            print("\n--bar.use_theme()：支持更换主题色系,选参")
-            print("--bar.print_echarts_options():打印详细的配置项，选参")
-            print("--bar.add()：写入数据*arge,\033[1;31;47m必写项\033[0m")
-            print("--bar.rander(),将所写的python文件存储到指定位置。默认为当前文件路径。\n")
-        break
-    else:
-        # print(False)
-        print("Bar帮助：{} 输入选项：help='help'\t声明字符串变量".format(i))
-        
-        
-```
-
-> Bar：Underline add help
-
-
-
-<br>
-
-<h3 align="center">Redfox实例应用</h3><hr>
-
-```python
-# 但是，如果我们在进行数据可视化编程的时候，万一忘了想要添加的参数呢？
-bar = Bar("我的第一个图表", "这里是副标题")
-bar.????('????')
-bar.add("服饰", ['衬衫', '羊毛衫', "雪纺衫", "裤子", "高跟鞋", "袜子"],
-        [5, 20, 36, 10, 75, 90], is_more_utils=True)
-bar.????("我想在生成HTML文件的同时，能够得到数据的反馈")
-bar.render()
-```
-
-> 每当作者心血来潮时，想要表现什么时，“忘参数了”这句话会很扎心。
-
-```python
-form deftest import [需要获取的帮助]
-
-Bar_help('help') | Bar_help('more') | Bar_help('help-all')
-
-# Redfox将pyecharm库中的所有的可视化模板进行初次统计
-# Redfox诞生之初，意愿为万物皆可帮助
-```
-
-<hr>
-<br>
-
-<h3 align="center"><font color="red">Your Help in Bar_help!</font></h3>
-
-<hr>
-
-> 不想一人走在成长的路上，那么多帮助一下别人吧！
->
-> <p align="center">——得道者多助——</p>
-
-<br>
-
-> <h3 align="center">Redfox使用时注意事项：</h3>
->
-> <h3 align="center"><font color="red">》》》Redfox库不能与pyecharts库共同使用《《《</font></h3>
->
-> <h3><font>原因如下 : </font></h3>
->
-> ```python
-> from pyecharts import *
-> from redfox import *
-> 
-> 
-> bar = Bar
-> # 该行为将会使程序无法查找到所对应的对象Bar
-> # 因为RedFox库中，所有charts命名和pyecharts相同……
-> # 在此，Redfox宗旨是将代码进行注释之后，调用该库，获得帮助
-> ```
->
-> <h3><font>不过，Redfox开发团队相信，这个问题将会在1.1.1c版本(也就是第二个正式版本时，解决该问题)</font></h3>
->
-> <hr>
-
-<br>
-
-<h3 align="center">关于极坐标系的获取帮助(For polar plots, get help)</h3>
 
 <hr>
 
 ```python
-#! /usr/bin/python
 # -*- coding:utf-8 -*-
-# author: haitanghuadeng(github)
-# project: Redfox
-# project hub: Redfox
+# 存储的帮助信息，数据类型将是字典。
+# 面向对象编程方式
 
 
-i = ['help', 'more', 'help-all']
-ii = {key:value, key:[value, value1]}
-def Polar_help(*arge):
-
-    for arge in i:
-        if arge == i[0]:
-            # 此处代码编写：遍历字典的KEY
-            print("dict的KEY")
-        elif arge == i[1]:
-            print("dict开发者模式的帮助")
-        else:
-            print("dict的KEY：VALUE (除了开发者模式)")
-            
 class Polar:
 
     def __init__(self, helpme):
@@ -296,70 +187,33 @@ class Polar:
 
     @staticmethod
     def add():
-        pass # 截止到2018年11月19日，Redfox最新版本为1.0.1a，目前.add()方法签名帮助暂未实现。
-
+        
+        # pass  截止到2018年11月19日，Redfox最新版本为1.0.1a，目前.add()方法签名帮助暂未实现。
+                
+        class_zero = ("add:(" + "name, data, " + 
+                      "\n\t angle_data=None, " +
+                      "\n\t radius_data=None, " +
+                      "\n\t type='line', " +
+                      "\n\t symbol_size=4, " +
+                      "\n\t start_angle=90, " +
+                      "\n\t rotate_step=0, " +
+                      "\n\t boundary_gap=True, " +
+                      "\n\t clockwise=True, **kwargs)")
+        print(class_zero)
 
 ```
 
-> 此处展示Redfox中对极坐标系的帮助，源码编写方式如上。
->
-> 特殊声明：Redfox函数式编程在版本1.0.1a之后被面向对象式编程取代
-
-<hr>
-<br>
-
-
-
-<h3 align="center"><font color="red">图形绘制过程~pyecharts</font></h3>
-
-<hr>
-
-
-
-| 步骤 |                   描述                    |       代码示例       |                             备注                             |
-| :--: | :---------------------------------------: | :------------------: | :----------------------------------------------------------: |
-|  1   |        实例一个具体类型图表的对象         |  chart = FooChart()  |                                                              |
-|  2   |       为图表添加通用的配置，如主题        |  chart.use_theme()   |                                                              |
-|  3   |           为图表添加特定的配置            | geo.add_coordinate() |                                                              |
-|  4   |             添加数据及配置项              |     chart.add()      | 参考 [数据解析与导入篇](http://pyecharts.org/#/zh-cn/data_import) |
-|  5   | 生成本地文件（html/svg/jpeg/png/pdf/gif） |    chart.render()    |                                                              |
-
-<hr>
-<br>
-
-<h3 align="center"><font color="red">RedFox1.0.1a首个版本声明</font></h3>
-
-
-
-> RedFox1.0.1a版本概要：
->
-> > RedFox版本开发，`a`为母版本，其作用为demo版本做样例。核心功能将在此进行初次开发及优化，该版本是落实一些想法版本。
-> >
-> > RedFox版本开发，`b`为demo版本，其作用为模板版本，核心功能在此进行二次优化及补全，该版本将会调整及部署一些优化方案。
-> >
-> > RedFox版本开发，`c`为生产版本，其作用为正式发布版本。核心功能是将RedFox开发之初所构建的愿景，[github](https://github.com/haitanghuadeng/Redfox/issues)问题模板将在此处进行提问和建议。
->
-> > 详细内容可以跳转访问[RedFox Wiki](https://github.com/haitanghuadeng/Redfox/wiki)，不过Wiki正在开发中，可以将为题提交到[问题模板](https://github.com/haitanghuadeng/Redfox/issues)
-
-> RedFox官网
->
-> > [www.haitanghuadeng.com](暂未开放)
-> >
-> > [www.haitanghuadeng.cn](暂未开放)
-> >
-> > [测试分页](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/docs/README.md)
-
-<hr>
+> Bar：Underline add help
 
 <br>
 
-<h3 align="center"><font color="red">Redfox:Path文件</font></h3>
+<h3 align="center"><font color="red">Your Help in Redfox('help')!</font></h3>
 
-> 1.0.1c版本之后，Redfox每次版本更新时，将会对版本生成一个"树目录图"
+<hr>
 
-> 这么做，只是希望使用者在查看当前版本所有信息时，可以最快速的得到反馈。
+> 不想一人走在成长的路上，那么多帮助一下别人吧！
+>
+> <p align="center">——得道者多助——</p>
 
-<hr><br>
-
-
+<hr>
 
