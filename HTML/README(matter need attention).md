@@ -3,6 +3,7 @@
 <br>
 
 <h3 align="center">Redfox使用时注意事项：</h3>
+<hr>
 
 > <h3 align="center"><font color="red">》》》Redfox库不能与pyecharts库共同使用《《《</font></h3>
 >
