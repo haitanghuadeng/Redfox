@@ -5,7 +5,7 @@
 <h3 align="center">Redfox使用时注意事项：</h3>
 <hr>
 
-> <h3 align="center"><font color="red">》》》Redfox库不能与pyecharts库共同使用《《《</font></h3>
+<h3 align="center"><font color="red">》》》Redfox库不能与pyecharts库共同使用《《《</font></h3>
 >
 > <h3><font>原因如下 : </font></h3>
 >
@@ -22,7 +22,8 @@
 >
 > <h3><font>不过，Redfox开发团队相信，这个问题将会在1.1.1c版本(也就是第二个正式版本时，解决该问题)</font></h3>
 >
-> <hr>
+ 
+<hr>
 
 <br>
 
