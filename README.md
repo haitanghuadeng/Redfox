@@ -163,7 +163,9 @@ polar.add()
 
 <p align="center"><font color=#000000>这么做，只是希望使用者在查看当前版本所有信息时，可以最快速的得到反馈。</font></p>
 
-<h3 align="center"><font color="red">在github/Redfox/开源库中 ，首级目录中存在名为“Version_filetree.py”的目录树，下载下来可以使用`python`执行并生成一分tree图，如果你装了python并有pyecharts库的话。</font></h3>
+> 在github/Redfox/开源库中 ，首级目录中存在名为`Version_filetree.py`的目录树。
+
+> 下载下来可以使用`python`执行并生成一分tree图，如果你装了`python`并有`pyecharts`库的话。
 
 > <br>
 >
@@ -181,7 +183,7 @@ polar.add()
 >
 > <br>
 >
-> 通过Version_filetree.py所生成的html文件，便可以知道当前版本的层级视图树。文件夹可响应，文件不可响应。
+> 通过`Version_filetree.py`所生成的`html`文件，便可以知道当前版本的层级视图树。
 
 <hr><br>
 
