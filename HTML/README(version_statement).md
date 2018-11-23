@@ -1,6 +1,74 @@
+
+
+<h3 align="center"><font color="red">Redfox1.0.1c版本声明</font></h3><hr>
+
 <br>
 
-<h3 align="center"><font color="red">RedFox1.0.1a首个版本声明</font></h3><hr>
+<h4 align="center">
+    <font color=#000000>
+    <p>Redfox1.0.1c版本之前，Redfox开发作者使用的方式极为低效。</p>
+    <p>但是在Redfox1.0.1b的版本声明中，Redfox的函数文件将会利用字典进行存储pyecharts库的制图信息。</p>
+    <p>在Redfox1.0.1c版本之后，pyecharts的有关更新将会添加至Redfox的demo函数文件，以此来调用该功能帮助</p>
+	</font>
+</h4>
+
+> Redfox1.01c版本概要：
+>
+> > 暂无，开发工程师正在努力编写中……
+
+<br>
+
+<h3 align="center"><font color="red">Redfox1.0.1aa版本声明</font></h3><hr>
+
+<br>
+
+> Redfox1.0.1aa版本概要：
+>
+> > a版本：继承1.0.1a版本
+> >
+> > 编码格式：函数式编程（该方法将在1.0.1b版本丢弃）
+> >
+> > 增加多个功能：
+> >
+> > ——Version_filetree文件（版本控制树）
+> >
+> > ```python
+> > # 该文件用于可视化路径目录，在1.0.1aa版本之后将被重复使用。
+> > ```
+> >
+> > ——README.md文件（分离）
+> >
+> > ```python
+> > # 优化首页功能，将调整分离。
+> > ```
+> >
+> > ——重构charts文件集（重构）
+> >
+> > ```python
+> > # 将Redfox/function/charts/*，进行重构。
+> > ```
+> >
+> > ——对python版本控制（限定）
+> >
+> > ```python
+> > # 本次更新，局限性较大，仅支持python3.6版本（因为新特性问题）。
+> > ```
+> >
+> > ——多个主文件重命名（命名规范）
+> >
+> > ```python
+> > # deftest.py = definfo.py
+> > # 空文件 = __init__.py
+> > # 加入初始化文件，将源文件deftest重构为得分info文件。
+> > ```
+> >
+> > 略……
+
+
+
+<br>
+
+<h3 align="center"><font color="red">Redfox1.0.1a首个版本声明</font></h3><hr>
 
 <br>
 
@@ -16,15 +84,5 @@
 
 <br>
 
-<h3 align="center"><font color="red">关于Redfox1.0.1c版本声明</font></h3><hr>
 
-<br>
-
-<h4 align="center">
-    <font color=#000000>
-    <p>Redfox1.0.1c版本之前，Redfox开发作者使用的方式极为低效。</p>
-    <p>但是在Redfox1.0.1b的版本声明中，Redfox的函数文件将会利用字典进行存储pyecharts库的制图信息。</p>
-    <p>在Redfox1.0.1c版本之后，pyecharts的有关更新将会添加至Redfox的demo函数文件，以此来调用该功能帮助</p>
-	</font>
-</h4>
 
