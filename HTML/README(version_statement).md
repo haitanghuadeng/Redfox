@@ -20,7 +20,7 @@
 
 <br>
 
-<h3 align="center"><font color="red">Redfox1.0.1aa版本声明</font></h3><hr>
+<h3 align="center"><font color="red">Redfox1.0.1b版本声明</font></h3><hr>
 
 <br>
 
