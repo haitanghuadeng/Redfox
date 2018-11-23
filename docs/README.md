@@ -26,9 +26,9 @@
 
 > use for reference
 
- [Read official document](https://github.com/pyecharts/pyecharts//)
+ [Read pyecahrts official document](https://github.com/pyecharts/pyecharts//)
  <br>
- [Read official description](http://pyecharts.org/#/)
+ [Read pyecharts official description](http://pyecharts.org/#/)
 
 <hr>
 
@@ -142,68 +142,19 @@
 <h3 align="center">对于python写作风格，Redfox提倡面向对象式编程。
     <p>尽管程序文件中仍然可见函数式编程，但这不影响我们的初衷。</p>
     <p>>>>> 开源! <<<<</p></h3><br>
+<hr>
 
+<br>
 
-
-<h4 align="center">
-    <font color=#000000>
-    <p>Redfox1.0.1c版本之前，Redfox开发作者使用的方式极为低效。</p>
-    <p>但是在Redfox1.0.1b的版本声明中，Redfox的函数文件将会利用字典进行存储pyecharts库的制图信息。</p>
-    <p>在Redfox1.0.1c版本之后，pyecharts的有关更新将会添加至Redfox的demo函数文件，以此来调用该功能帮助</p>
-	</font>
-</h4>
-
-
+<h3 align="center"><font color="red">Read Redfox official document</font></h3>
 
 <hr>
 
-```python
-# -*- coding:utf-8 -*-
-# 存储的帮助信息，数据类型将是字典。
-# 面向对象编程方式
-
-
-class Polar:
-
-    def __init__(self, helpme):
-        self.helpme = helpme
-
-    def help(self):
-
-        i = ['help', 'more', 'help-all']
-        ii = {key:value, key:[value, value1]}
-
-        value = self.helpme
-        if value in i:
-            print("From dictionaries read INFO")
-            if value == i[0]:
-                for key in ii.keys():
-                    print(key)
-            elif value == i[1]:
-                for key in ii.keys():
-                    print(key + ii[key])
-        else:
-            print("传入实参未达到预期值" + "\n可写选项为 polar_help( [help] | [more] )")
-
-    @staticmethod
-    def add():
-        
-        # pass  截止到2018年11月19日，Redfox最新版本为1.0.1a，目前.add()方法签名帮助暂未实现。
-                
-        class_zero = ("add:(" + "name, data, " + 
-                      "\n\t angle_data=None, " +
-                      "\n\t radius_data=None, " +
-                      "\n\t type='line', " +
-                      "\n\t symbol_size=4, " +
-                      "\n\t start_angle=90, " +
-                      "\n\t rotate_step=0, " +
-                      "\n\t boundary_gap=True, " +
-                      "\n\t clockwise=True, **kwargs)")
-        print(class_zero)
-
-```
-
-> Bar：Underline add help
+> [from Redfox Version_statement](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(version_statement).md)
+>
+> [from Redfox code_statement](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(code_statement).md)
+>
+> [from Redfox matter_need_attention](https://github.com/haitanghuadeng/Redfox/blob/master/HTML/README(matter_need_attention).md)
 
 <br>
 
